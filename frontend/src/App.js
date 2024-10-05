@@ -34,6 +34,7 @@ import AdminOrdersPage from "./pages/admin/AdminOrdersPage";
 import AdminOrderDetailsPage from "./pages/admin/AdminOrderDetailsPage";
 import AdminChatsPage from "./pages/admin/AdminChatsPage";
 import AdminAnalyticsPage from "./pages/admin/AdminAnalyticsPage";
+import AboutUsPage from "./pages/AboutUs";
 
 
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="/register" element={<RegisterPage/>}/>
           <Route path="/product-details" element={<ProductDetailsPage/>}/>
+          <Route path="/aboutus" element={<AboutUsPage/>}/>
           <Route path="*" element="Page does not exist"/>
 
             {/* user protected routes */}
