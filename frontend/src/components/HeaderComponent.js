@@ -66,6 +66,10 @@ const HeaderComponent = () => {
             <LinkContainer to="/register">
                     <Nav.Link>Register</Nav.Link>
             </LinkContainer>
+
+            <LinkContainer to="/aboutus">
+                    <Nav.Link>About Us</Nav.Link>
+            </LinkContainer>
           </Nav>
          
         </Navbar.Collapse>
